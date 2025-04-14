@@ -1,0 +1,87 @@
+@import url(https://db.onlinewebfonts.com/c/cdc8c3de1e6bd5a9a67c6a001f9fedd0?family=Burbank+Big+Condensed+Black);
+@font-face {
+  font-family: "Burbank Big Condensed Black";
+  src: url("https://db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.eot");
+  src: url("https://db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.svg#Burbank Big Condensed Black")format("svg");
+}
+
+body {
+    text-align: center;
+}
+
+button {
+    font-size: 24px;
+    font-family: "Burbank Big Condensed Black";
+    font-size: 40px;
+    padding: 20px 40px;
+    margin-top: 50px;
+    background: #f7ff1a;
+    color: black; /* Texto blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+  }
+  
+  button:hover {
+    background-color: #c7cccc; /* Cambia a blanco al pasar sobre el botón */
+    border: 2px solid #ffffff; /* Borde blanco sólido */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    color: black; /* Texto rosa */
+    transform: scale(1.05); /* Escala ligeramente el botón */
+  }
+  
+  button:active {
+    transform: scale(0.95); /* Reduce ligeramente el tamaño cuando se hace clic */
+  }
+
+#counter {
+    font-size: 48px;
+    margin-top: 20px;
+    
+}
+
+#image {
+    display: none; /* Oculta la imagen inicialmente */
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+body {
+    background-image: url('f4.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el elemento */
+     /* Centra la imagen */
+}
+
+h1 {
+    font-family: "Burbank Big Condensed Black";
+    color: white; /* Set the text color to purple */
+    -webkit-text-stroke-width: 2px; /* Set the width of the stroke to 1 pixel */
+    letter-spacing: 1.8px;
+    font-size: 80px;
+  }
+
+  #externalCounter {
+    font-size: 48px; /* Tamaño de fuente muy grande */
+    background-color: #c7cccc; /* Cambia a blanco al pasar sobre el botón */
+    color: black; /* Texto rosa */
+    text-shadow: 2px 2px 4px #ffffff; /* Sombra de texto para dar relieve */
+    padding: 10px 20px; /* Espaciado interior */
+    border-radius: 10px; /* Bordes redondeados */
+    display: inline-block; /* Para que el fondo abarque solo el tamaño del texto */
+  }
+
+  #counter {
+    font-size: 48px; /* Tamaño de fuente muy grande */
+    font-weight: bold; /* Letra en negrita */
+    color: black; /* Color de texto negro */
+    padding: 10px 20px; /* Espaciado interior */
+    border-radius: 10px; /* Bordes redondeados */
+    display: inline-block; /* Para que el fondo abarque solo el tamaño del texto */
+    background-color: #c7cccc; /* Cambia a blanco al pasar sobre el botón */
+  }
+  
+  
